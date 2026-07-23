@@ -1365,15 +1365,22 @@
   </head>
   <body>
     <!-- TOP BAR -->
-    <!-- <div class="topbar">
+    <div class="topbar">
       Licensed &amp; Insured &middot; Las Vegas, NV &nbsp;|&nbsp; Call Now:
       <a href="tel:7022014848">702-201-4848</a>
-    </div> -->
+    </div>
 
     <!-- NAV -->
     <nav>
       <div class="nav-logo">Escobar <span>Handyman</span></div>
-
+      <ul class="nav-links" id="navlinks">
+        <!-- <a href="tel:7022014848" class="nav-phone-btn">702-201-4848</a> -->
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="tel:7022014848" class="nav-cta">702-201-4848</a></li>
+      </ul>
       <div class="nav-overlay" id="navoverlay" onclick="closeNav()"></div>
       <button class="nav-close-btn" id="navclose" onclick="closeNav()">
         &#x2715;
@@ -1400,40 +1407,519 @@
         <div class="hero-text">
           <div class="hero-eyebrow">Las Vegas, NV &middot; Home Services</div>
           <h1 class="hero-title">
-            Coming<br /><span class="red">Soon!</span>
+            Reliable Handyman<br /><span class="red">Services</span>
           </h1>
           <div class="hero-subtitle">Escobar Handyman Home Services LLC</div>
-          <!-- <p class="hero-desc">
+          <p class="hero-desc">
             Reliable Property Maintenance for Properties, Homes, Rentals and
             Businesses.<br />
             <br />
             Dependable, professional support for homeowners, renters, property
             managers, landlords and business owners&mdash;keeping every property
             clean, functional and well maintained.
-          </p> 
-           <div class="hero-actions">
+          </p>
+          <div class="hero-actions">
             <a href="#contact" class="btn-primary">Get a Free Quote</a>
             <a href="#services" class="btn-outline">Our Services</a>
-          </div> -->
-          <!-- <div class="hero-phone">
+          </div>
+          <div class="hero-phone">
             <div class="phone-icon">&#128222;</div>
             <div>
               <span class="label">Call Escobar Handyman Services Directly</span>
               <a href="tel:7022014848">702 201 4848</a>
             </div>
-          </div> -->
+          </div>
         </div>
         <div class="hero-logo-wrap">
-          <!-- <img
+          <img
             src="./img/escobar-logo01.png"
             alt="Escobar Handyman Home Services LLC Logo"
             class="hero-logo"
-          /> -->
+          />
         </div>
       </div>
     </section>
 
+    <!-- TRUST BAR -->
+    <div class="trust-bar">
+      <div class="trust-item">
+        <div class="trust-icon">&#128106;</div>
+        <div class="trust-text">
+          <strong>Family Owned &amp; Operated</strong>
+          <span>Locally Based in Las Vegas</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">&#9889;</div>
+        <div class="trust-text">
+          <strong>Prompt &amp; Professional</strong>
+          <span>We Show Up On Time</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">&#127885;</div>
+        <div class="trust-text">
+          <strong>Quality Work at Fair Prices</strong>
+          <span>No Hidden Fees</span>
+        </div>
+      </div>
+    </div>
 
+    <!-- ABOUT -->
+    <div class="about-wrap">
+      <section class="about" id="about">
+        <div class="about-image-wrap">
+          <div class="about-image-bg"></div>
+          <div class="about-image-accent"></div>
+          <img
+            class="about-img"
+            src="./img/escobar-about-card.png"
+            alt="Escobar Handyman Home Services LLC business card"
+          />
+        </div>
+        <div class="about-content">
+          <div class="section-label">About Escobar Handyman Services</div>
+          <h2 class="section-title">Your Neighbor.<br />Your Handyman.</h2>
+          <p class="section-body">
+            Services LLC was founded on one simple belief: homeowners, renters,
+            property managers, and business owners deserve reliable, skilled
+            professionals they can trust. With years of hands-on experience
+            throughout the Las Vegas Valley, we bring quality craftsmanship,
+            clear communication and genuine care to every property we serve.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <div class="num">10+</div>
+              <div class="label">Years Experience</div>
+            </div>
+            <div class="stat">
+              <div class="num">500+</div>
+              <div class="label">Jobs Completed</div>
+            </div>
+            <div class="stat">
+              <div class="num">100%</div>
+              <div class="label">Licensed &amp; Insured</div>
+            </div>
+            <div class="stat">
+              <div class="num">LV</div>
+              <div class="label">Las Vegas Native</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- SERVICES -->
+    <section class="services-section" id="services">
+      <div class="services-inner">
+        <div class="section-label">What We Do</div>
+        <h2 class="section-title">Services for<br />Property Owners</h2>
+        <p class="section-body" style="max-width: 600px">
+          From rental turnovers to everyday maintenance, we make property care
+          simple&mdash;with dependable service, clear communication and honest
+          pricing you can count on.
+        </p>
+        <div class="services-flyer-grid">
+          <div class="services-list-wrap">
+            <div class="services-list-header">
+              <span class="svc-header-icon">&#128295;</span>
+              <span>Services for Property Owners</span>
+            </div>
+            <div class="services-two-col">
+              <ul class="svc-list">
+                <li>Drywall patch &amp; texture repair</li>
+                <li>Interior paint touch-ups</li>
+                <li>Unit turnover repairs &amp; make-ready</li>
+                <li>Door &amp; hinge adjustments</li>
+                <li>Lock changes &amp; hardware swaps</li>
+                <li>Lock, handle &amp; door hardware replacement</li>
+                <li>Cabinet handle &amp; hardware installation</li>
+                <li>Shelving installation</li>
+                <li>TV or monitor mounting</li>
+                <li>Window blind &amp; curtain rod installation</li>
+                <li>Caulking &amp; sealing</li>
+                <li>Weatherstripping installation</li>
+                <li>Minor exterior touch-ups</li>
+                <li>Curb painting &amp; numbering</li>
+              </ul>
+              <ul class="svc-list">
+                <li>Pressure washing (where permitted)</li>
+                <li>Minor fence or gate adjustments</li>
+                <li>Wall corner guard installation</li>
+                <li>Baseboard, trim &amp; molding repair</li>
+                <li>Restroom accessory installation</li>
+                <li>Toilet seat &amp; fixture replacement</li>
+                <li>Light fixture &amp; ceiling fan installation</li>
+                <li>Parking lot or property signage hanging</li>
+                <li>Mailroom &amp; common area touch-ups</li>
+                <li>Move-in / move-out punch-list repairs</li>
+                <li>Minor appliance &amp; fixture replacement</li>
+                <li>Make-ready maintenance</li>
+                <li>Emergency on-call repairs</li>
+                <li class="svc-more">&hellip;And More!</li>
+              </ul>
+            </div>
+          </div>
+          <div class="ideal-for-wrap">
+            <div class="ideal-for-header">
+              <span class="svc-header-icon">&#11088;</span>
+              <span>Ideal For</span>
+            </div>
+            <ul class="ideal-list">
+              <li>
+                <span class="ideal-icon">&#127969;</span>Rental Properties &
+                Property Managers
+              </li>
+              <li>
+                <span class="ideal-icon">&#127970;</span>Offices & Commercial
+                Properties
+              </li>
+              <li>
+                <span class="ideal-icon">&#128136;</span>Salons, Retail Shops &
+                Business Suites
+              </li>
+              <li>
+                <span class="ideal-icon">&#127968;</span>Homeowners, Renters &
+                Landlords
+              </li>
+              <li>
+                <span class="ideal-icon">&#128203;</span>Property Turnovers,
+                Maintenance & Punch Lists Items
+              </li>
+            </ul>
+            <a href="#contact" class="btn-primary" style="margin-top: 32px"
+              >Get a Free Quote</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY US -->
+    <section class="why-section" id="why">
+      <div class="why-inner">
+        <div>
+          <div class="section-label">The Difference</div>
+          <h2 class="section-title">
+            Why Homeowners<br />Choose Escobar Handyman Services
+          </h2>
+          <div class="why-list">
+            <div class="why-item">
+              <div class="why-num">01</div>
+              <div class="why-item-text">
+                <h4>Honest, Upfront Pricing</h4>
+                <p>
+                  No surprise charges or hidden fees. You get a clear quote
+                  before any work begins, so you're always in control.
+                </p>
+              </div>
+            </div>
+            <div class="why-item">
+              <div class="why-num">02</div>
+              <div class="why-item-text">
+                <h4>We Show Up On Time</h4>
+                <p>
+                  Your schedule matters. Escobar Handyman Services respect your
+                  time by arriving when promised and finishing when committed.
+                </p>
+              </div>
+            </div>
+            <div class="why-item">
+              <div class="why-num">03</div>
+              <div class="why-item-text">
+                <h4>Craftsmanship Guaranteed</h4>
+                <p>
+                  Every job is finished to a standard Escobar Handyman Services
+                  are proud to put our name on. Your satisfaction is the final
+                  sign-off.
+                </p>
+              </div>
+            </div>
+            <div class="why-item">
+              <div class="why-num">04</div>
+              <div class="why-item-text">
+                <h4>Local Las Vegas Pro</h4>
+                <p>
+                  We know this city, its homes, and its climate. That local
+                  knowledge means smarter solutions for your home or property.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="why-card">
+            <div class="big-quote">&ldquo;</div>
+            <blockquote>
+              "We started this company because finding dependable help shouldn't
+              be difficult. Our customers deserve skilled professionals who show
+              up, communicate clearly and care for every property as if it were
+              their own."
+            </blockquote>
+            <cite>&mdash; Rhyan Handy, Nicolas Escobar - owners</cite>
+            <div class="rhyan-name">Escobar Handyman Services</div>
+            <div class="rhyan-title">
+              Owner &middot; Escobar Handyman Home Services LLC
+            </div>
+            <div class="end-quote">&rdquo;</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BAND -->
+    <div class="cta-band">
+      <div class="cta-band-inner">
+        <h2>Need Reliable Help With<br />Repairs and Maintenance?</h2>
+        <p>
+          Contact Escobar Handyman Home Services LLC today for a free,
+          no-obligation quote. Fair prices. Honest work.
+        </p>
+        <a href="#contact" class="btn-white">Request a Free Quote</a>
+        <a href="tel:7022014848" class="cta-phone">&#128222; 702 201 4848</a>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+      <div class="contact-info">
+        <div class="section-label">Get In Touch</div>
+        <h2 class="section-title">Let&rsquo;s Talk<br />About Your Project</h2>
+        <p class="section-body">
+          Fill out the form, or just give Escobar Handyman Services a call.
+          We&rsquo;ll get back to you fast with a free estimate and everything
+          you need to move forward.
+        </p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-item-icon">&#128222;</div>
+            <div class="contact-item-text">
+              <strong>Phone</strong>
+              <a href="tel:7022014848">702-201-4848</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">&#9993;&#65039;</div>
+            <div class="contact-item-text">
+              <strong>Email</strong>
+              <a href="mailto:Handyman@escobarhandymanservices.com"
+                >Handyman@escobarhandymanservices.com</a
+              >
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">&#128205;</div>
+            <div class="contact-item-text">
+              <strong>Service Area</strong>
+              <span>Las Vegas, NV &amp; Surrounding Areas</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">&#128336;</div>
+            <div class="contact-item-text">
+              <strong>Hours</strong>
+              <span>Mon&ndash;Sat: 7:00 AM &ndash; 7:00 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h3>Request a Free Quote</h3>
+
+        <!-- Shown after successful submission -->
+        <div class="form-success" id="formSuccess">
+          <p>&#10003; Thanks! We will be in touch with you shortly.</p>
+        </div>
+
+        <!--
+      FORMSPREE SETUP:
+      1. Create a free account at https://formspree.io
+      2. Create a new form — you'll get an ID like "xabcd1234"
+      3. send it me that ID and add my email address to your formspree account
+
+      -rick
+    -->
+        <form
+          id="quoteForm"
+          action="https://formspree.io/f/xqerddnv"
+          method="POST"
+        >
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input
+                type="text"
+                id="firstName"
+                name="first_name"
+                placeholder="John"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input
+                type="text"
+                id="lastName"
+                name="last_name"
+                placeholder="Smith"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="(702) 555-0000"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="you@example.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="service">Service Needed</label>
+            <select id="service" name="service">
+              <option value="">Select a service...</option>
+              <option>Drywall Patch &amp; Texture Repair</option>
+              <option>Interior Paint Touch-Ups</option>
+              <option>Unit Turnover / Make-Ready</option>
+              <option>Door &amp; Hardware Repairs</option>
+              <option>Shelving / TV Mounting</option>
+              <option>Light Fixture &amp; Ceiling Fan Installation</option>
+              <option>Toilet / Fixture Replacement</option>
+              <option>Move-In / Move-Out Punch List</option>
+              <option>Pressure Washing</option>
+              <option>Caulking &amp; Sealing</option>
+              <option>Emergency On-Call Repairs</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell Us About Your Project</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Briefly describe what you need done..."
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            class="btn-primary"
+            style="
+              width: 100%;
+              font-size: 1rem;
+              padding: 16px;
+              border: none;
+              cursor: pointer;
+            "
+          >
+            Submit Request
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="name">Escobar <span>Handyman</span></div>
+          <div class="tagline">Home Services LLC</div>
+          <p>
+            Fair Prices. Honest Work. Family owned &amp; operated in Las Vegas,
+            NV &mdash; serving rental properties, landlords, and homeowners.
+          </p>
+          <div class="footer-social">
+            <a
+              href="https://www.instagram.com/escobar.handyman.home.services"
+              target="_blank"
+              class="social-icon"
+              aria-label="Instagram"
+            >
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 2c2.7 0 3.05.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.22.6 1.77 1.15.55.55.9 1.11 1.15 1.77.25.64.42 1.37.47 2.43.05 1.07.06 1.42.06 4.12s-.01 3.05-.06 4.12c-.05 1.06-.22 1.79-.47 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.64.25-1.37.42-2.43.47-1.07.05-1.42.06-4.12.06s-3.05-.01-4.12-.06c-1.06-.05-1.79-.22-2.43-.47a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.25-.64-.42-1.37-.47-2.43C2.01 15.05 2 14.7 2 12s.01-3.05.06-4.12c.05-1.06.22-1.79.47-2.43.26-.66.6-1.22 1.15-1.77A4.9 4.9 0 0 1 5.45 2.53c.64-.25 1.37-.42 2.43-.47C8.95 2.01 9.3 2 12 2zm0 1.802c-2.67 0-2.987.01-4.04.059-.976.045-1.505.207-1.858.344-.466.181-.8.398-1.15.748-.35.35-.566.683-.747 1.15-.137.352-.3.882-.344 1.857-.048 1.055-.058 1.37-.058 4.04 0 2.67.01 2.987.058 4.04.045.976.207 1.505.344 1.858.181.466.398.8.748 1.15.35.35.683.566 1.15.747.352.137.882.3 1.857.344 1.054.048 1.37.058 4.04.058 2.67 0 2.987-.01 4.04-.058.976-.045 1.505-.207 1.858-.344.466-.181.8-.398 1.15-.748.35-.35.566-.683.747-1.15.137-.352.3-.882.344-1.857.048-1.054.058-1.37.058-4.04 0-2.67-.01-2.987-.058-4.04-.045-.976-.207-1.505-.344-1.858a3.1 3.1 0 0 0-.748-1.15 3.1 3.1 0 0 0-1.15-.747c-.352-.137-.882-.3-1.857-.344-1.054-.048-1.37-.058-4.04-.058zM12 7.378a4.622 4.622 0 1 1 0 9.244 4.622 4.622 0 0 1 0-9.244zm0 1.802a2.82 2.82 0 1 0 0 5.64 2.82 2.82 0 0 0 0-5.64zm4.808-1.998a1.08 1.08 0 1 1 0 2.16 1.08 1.08 0 0 1 0-2.16z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://nextdoor.com/page/escobar-handyman-home-services-las-vegas-nv/"
+              target="_blank"
+              class="social-icon"
+              aria-label="Nextdoor"
+            >
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 2 2 9.5V22h6.5v-6.5a3.5 3.5 0 0 1 7 0V22H22V9.5L12 2z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=61592108512508"
+              target="_blank"
+              class="social-icon"
+              aria-label="Facebook"
+            >
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://www.yelp.com/biz/escobar-handyman-home-services-las-vegas"
+              target="_blank"
+              class="social-icon"
+              aria-label="Yelp"
+            >
+              <svg viewBox="0 0 384 512">
+                <path
+                  d="M42.9 240.32l99.62 48.61c19.2 9.4 16.2 37.51-4.5 42.71L30.5 358.45a22.79 22.79 0 0 1-28.21-19.6 197.16 197.16 0 0 1 9-85.32 22.8 22.8 0 0 1 31.61-13.21zm44 239.25a199.45 199.45 0 0 0 79.42 32.11A22.78 22.78 0 0 0 192.94 490l3.9-110.82c.7-21.3-25.5-31.91-39.81-16.1l-74.21 82.4a22.82 22.82 0 0 0 4.09 34.09zm145.34-109.92l58.81 94a22.93 22.93 0 0 0 34 5.5 198.36 198.36 0 0 0 52.71-67.61A23 23 0 0 0 364.17 370l-105.42-34.26c-20.31-6.5-37.81 15.8-26.51 33.91zm148.33-132.23a197.44 197.44 0 0 0-50.41-69.31 22.85 22.85 0 0 0-34 4.4l-62 91.92c-11.9 17.7 4.7 40.61 25.2 34.71L366 268.63a23 23 0 0 0 14.61-31.21zM62.11 30.18a22.86 22.86 0 0 0-9.9 32l104.12 180.44c11.7 20.2 42.61 11.9 42.61-11.4V22.88a22.67 22.67 0 0 0-24.5-22.8 320.37 320.37 0 0 0-112.33 30.1z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Drywall &amp; Paint</a></li>
+            <li><a href="#services">Unit Turnover / Make-Ready</a></li>
+            <li><a href="#services">Door &amp; Hardware Repairs</a></li>
+            <li><a href="#services">Fixture &amp; Appliance Replacement</a></li>
+            <li><a href="#services">Punch-List Repairs</a></li>
+            <li><a href="#services">Emergency On-Call</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:7022014848">702-201-4848</a></li>
+            <li><a href="#contact">Get a Free Quote</a></li>
+            <li><a href="#about">About Escobar Handyman Services</a></li>
+            <li><a href="#why">Why Choose Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span
+          >&copy; <span id="copyrightDate">2026</span> Escobar Handyman Home
+          Services LLC &middot; Las Vegas, NV</span
+        >
+        <span>&#9874; Fair Prices. Honest Work. &#9874;</span>
+      </div>
+    </footer>
 
     <script>
       // Set current year in footer
